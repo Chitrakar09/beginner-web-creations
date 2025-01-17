@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  border: border-box;
+  font-family: Helvetica;
+}
+.border:hover {
+  border: 2px solid #ffffff;
+}
+/* This is the navbar-1 */
+.navbar-1 {
+  height: 60px;
+  width: auto;
+  background-color: #026444;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* Amazon logo */
+.amazonlogo {
+  height: 50px;
+  width: 115px;
+  background-image: url("Photos/amazon_logo.png");
+  background-size: cover;
+}
+/* Address Selection box */
+.navaddress {
+  color: white;
+  display: flex;
+}
+.navadd1 {
+  display: flex;
+  align-items: start;
+  margin-top: 17px;
+}
+.navadd2 {
+  display: flex;
+  flex-direction: column;
+  margin: 4px;
+}
+.small_font {
+  font-size: 0.875rem;
+  color: #cccccc;
+}
+.heavy_font {
+  font-weight: bolder;
+  font-size: 0.938rem;
+  color: white;
+}
+/* Search Bar */
+.searchbar {
+  color: white;
+  height: 40px;
+  width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+}
+select {
+  height: 40px;
+  width: 60px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  text-align: center;
+}
+#search {
+  height: 38px;
+  border: none;
+  color: #8e8fa6;
+  font-size: 0.938rem;
+  width: 100%;
+}
+.searchicon {
+  background-color: #a9176f;
+  height: 40px;
+  font-size: larger;
+  width: 50px;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* Cart box */
+.cart {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+.ct {
+  align-self: flex-end;
+}
+/* This is the navbar-2 */
+.navbar-2 {
+  height: 40px;
+  background-color: #085749;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+.menu {
+  height: 40px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navmenu {
+  font-size: 1rem;
+}
+.menuu {
+  font-size: 0.875rem;
+  margin-left: 5px;
+}
+.navlinks {
+  margin-left: 6px;
+  margin-right: 6px;
+  font-size: 0.875rem;
+}
+/* Main Content */
+/* This is the big image */
+.img-container {
+  height: 225px;
+  width: 100%;
+  background: url(Photos/pic1.jpg);
+  background-size: cover;
+}
+/* This is the product section */
+.box-container {
+  height: 100%;
+  background: linear-gradient(180deg, #ff6201, #eaeaea, #eaeaea);
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+/* layout of the product containing box */
+.layout {
+  height: 380px;
+  width: 285px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+/* header of the p.c.box */
+.content-text {
+  padding-top: 20px;
+  padding-left: 15px;
+  font-size: 20px;
+}
+/* type1 box containing the images of product */
+.img-holder1 {
+  height: 260px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+/* div holding individual images */
+.placement1 {
+  height: 110px;
+  width: 120px;
+  background-size: cover;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* layout of the image in type1 box */
+.img-box {
+  width: 120px;
+  height: 100px;
+  background-size: cover;
+}
+/* div containing text below the images */
+.text-box {
+  margin-bottom: 10px;
+}
+/* text below the images */
+.text {
+  font-size: 0.688rem;
+}
+/* div containing see more */
+.see-more {
+  height: 100%;
+  width: 100%;
+  margin-top: 15px;
+  padding-left: 15px;
+}
+/* see more */
+.see-more-link {
+  text-decoration: none;
+  font-size: 0.875rem;
+  color: #6aacb8;
+  font-weight: bold;
+  margin-top: 100px;
+}
+/* type2 box containing the images of product */
+.img-holder2 {
+  height: 270px;
+  width: 250px;
+  background-size: cover;
+  margin-left: 18px;
+  margin-top: 10px;
+}
+/* Sign in box */
+.signin2 {
+  height: 180px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.signin-container {
+  height: 150px;
+  width: 100%;
+  padding-top: 20px;
+  border-top: 1px solid rgba(8, 8, 8, 0.229);
+  border-bottom: 1px solid rgba(8, 8, 8, 0.229);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signin-items {
+  margin: 5px;
+}
+.signin-button {
+  height: 28px;
+  width: 230px;
+  border: 1px solid #e7a707;
+  border-radius: 5px;
+  font-weight: 700;
+  background-color: #ffc32b;
+}
+.signin-text {
+  font-size: 0.813rem;
+  font-weight: normal;
+}
+/* footer section */
+/* back to top */
+.backtotop {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #485769;
+  text-align: center;
+}
+#backtotop {
+  color: white;
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+/* footer1 */
+.footer1 {
+  height: 280px;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 39px;
+  border-bottom:1px solid rgba(255, 255, 255, 0.269) ;
+}
+.footer1content{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer1heading{
+  margin-bottom: 10px;
+}
+.footer1link{
+  font-size: smaller;
+  text-decoration: none;
+  color: white;
+}
+li{
+  list-style-type: none ;
+  margin-bottom: 10px;
+}
+/* footer 2 */
+.footer2{
+  height: 100px;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer2-logo{
+  height: 32px;
+  width: 76px;
+background-image: url("Photos/amazon_logo.png");
+background-size: cover;
+margin-right: 100px;
+}
+.f2{
+  height: 34px;
+  color: white;
+ display: flex;
+ border: 1px solid rgba(255, 255, 255, 0.377);
+ justify-content: flex-start;
+ align-items: center;
+ margin: 5px;
+ border-top-left-radius: 5px;
+ border-bottom-left-radius: 5px;
+ border-top-right-radius: 5px;
+ border-bottom-right-radius: 5px;
+ padding-left: 5px;
+ font-size: 0.75rem;
+}
+.footer2-language{
+  width: 116px;
+}
+.footer2-currency{
+  width: 150px;
+}
+.footer2-country{
+  width: 141px;
+}
+#f2-language{
+  margin-left: 10px;
+}
+/* footer3 */
+.footer3{
+  height: 70px;
+  background-color: #131a22;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+}

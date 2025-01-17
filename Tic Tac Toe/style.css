@@ -1,0 +1,68 @@
+body{
+    background-color: #023047;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.heading{
+    color: #FB8500;
+    font-size: 50px;
+}
+
+.box-container{
+    border-radius: 10px;
+    background-color: #ffb703;
+    height: 310px;
+    width: 310px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    background-color: #219EBC;
+    height: 100px;
+    width: 100px;
+    margin: 1px;
+    border-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: #FB8500;
+}
+
+.reload-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reload{
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    background-color: #ffb703;
+    color: #023047;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.winMsg-container{
+    padding: 10px;
+    text-align: center;
+    color: #FFB703;
+    font-size: 40px;
+}
+

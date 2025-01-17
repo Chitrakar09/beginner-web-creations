@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="mainCOntainer">
+      <h1 class="heading">Rock-Paper-Scissor</h1>
+      <div class="prompt">Pick Your Move</div>
+      <div class="imgContainer">
+        <button
+          id="Rock"
+          class="imgHolder"
+        ><i class="fa-regular fa-hand-back-fist" style="color: #F1FAEE;"></i></button>
+        <button
+          id="Paper"
+          class="imgHolder"
+        ><i class="fa-regular fa-hand" style="color: #F1FAEE;"></i></button>
+        <button
+          id="Scissor"
+          class="imgHolder"
+        ><i class="fa-regular fa-hand-scissors" style="color: #F1FAEE;"></i></button>
+      </div>
+      <div class="computerChoice hide">I Choose Scissor</div>
+      <div class="msgContainer">"Let's See who wins!!"</div>
+      <div class="scoreContainer">
+        <div class="score">SCORE:</div>
+        <div id="you" class="score">You:</div>
+        <div id="computer" class="score">A.I:</div>
+        <div id="draw" class="score">Draws:</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
