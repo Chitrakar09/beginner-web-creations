@@ -19,10 +19,10 @@ let toggleForBracket = () => {
 };
 
 let toggleForIncDec = () => {
-  let currentValue=parseFloat(screen.value);
-  currentValue= -currentValue;
-  screen.value=currentValue;
-  string= currentValue.toString();
+  let currentValue = parseFloat(screen.value);
+  currentValue = -currentValue;
+  screen.value = currentValue;
+  string = currentValue.toString();
 };
 
 let flip = (key) => {
@@ -48,11 +48,15 @@ let keyValSeperation = (evt) => {
   } else if (key === "=") {
     let result = calculation(string);
     screen.value = result;
-    string=result.toString();
+    string = result.toString();
   } else if (key === "()") {
     flip(key);
   } else if (key === "#") {
     flip(key);
+  } else if (key === "÷") {
+    key = "/";
+    string += key;
+    screen.value = string;
   } else {
     string += key;
     screen.value = string;
