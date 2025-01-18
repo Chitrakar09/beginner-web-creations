@@ -38,8 +38,7 @@ let calculation = (string) => {
   return result;
 };
 
-let keyValSeperation = (evt) => {
-  key = evt.target.dataset.key;
+let condition=(key)=>{
   if (key === "C") {
     string = "";
     bracket = "(";
@@ -61,6 +60,24 @@ let keyValSeperation = (evt) => {
     string += key;
     screen.value = string;
   }
+}
+
+let keyValSeperation = (evt) => {
+  key = evt.target.dataset.key;
+  condition(key);
 };
 
+let keydown=(evt)=>{
+  
+  const allowedKeys = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '+', '-', '*', '/','=','(',')'];
+  let key = evt.key;
+  evt.preventDefault();
+    if (allowedKeys.includes(key)) {
+        condition(key);
+    }
+  
+  
+}
+
 buttons.forEach((button) => button.addEventListener("click", keyValSeperation));
+window.addEventListener("keydown",keydown);
