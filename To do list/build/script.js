@@ -108,7 +108,7 @@ const taskAdd = (e) => {
   // ----------Appending the divs and spans---------
   taskContainer.classList.remove("hidden");
   taskContainer.append(taskDiv);
-  taskText.innerHTML = `<p>$${text}</p>`;
+  taskText.innerHTML = `<p>${text}</p>`;
   taskDiv.prepend(taskText);
   taskDiv.append(iconSpan);
   iconSpan.prepend(checkBoxIcon);
