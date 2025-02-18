@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/x-icon" href="images/to-do-list.png">
+    <title>TO DO LIST</title>
+  </head>
+  <body
+    class="min-h-screen bg-gradient-to-br from-[#5A4633] via-[#A08A74] to-[#776150] bg-cover bg-center bg-no-repeat bg-fixed"
+  >
+    <!---------------------------------- This is the main content----------------------- -->
+    <div class="main flex flex-col justify-center items-center space-y-5">
+      <!---------------------------------- Logo/Heading----------------------- -->
+      <div class="logo flex justify-center items-center mt-5">
+        <h1
+          class="font-rubik text-5xl md:text-7xl text-amber-100 [text-shadow:_2px_2px_0_rgb(0_0_0_/_60%)]"
+        >
+          To Do List
+        </h1>
+      </div>
+
+      <!---------------------------------- This is the textarea----------------------- -->
+      <div
+        class="textarea w-[90%] md:w-[60%] drop-shadow-lg bg-white/5 backdrop-blur-md border border-white/20 rounded-2xl p-1 md:py-5 shadow-lg flex justify-evenly items-center space-x-2"
+      >
+        <input
+          type="text"
+          placeholder="Add a new Task"
+          class="w-3/4 text-lg md:text-3xl text-[white] p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 items-start border-2 border-white text-center"
+        />
+        <button
+          class="btn md:w-1/5 px-3 py-3 bg-black text-white text-lg font-semibold rounded-xl shadow-md transition duration-300 ease-in-out transform hover:bg-gray-900 hover:scale-105 focus:ring-2 focus:ring-gray-500 focus:outline-none active:scale-95 cursor-pointer"
+        >
+          Create
+        </button>
+      </div>
+
+      <!---------------------------------- This is the task count div----------------------- -->
+      <div
+        class="tasks-count w-[90%] md:w-[60%] drop-shadow-lg bg-white/5 backdrop-blur-md border border-white/20 rounded-2xl p-3 shadow-lg flex justify-evenly md:justify-between items-center space-x-4"
+      >
+        <span
+          class="flex space-x-2 md:space-x-5 text-sm md:text-lg lg:text-2xl max-sm:text-[0.8rem] text-black ml-3 md:ml-10 font-extrabold"
+          ><h4>Tasks Created</h4>
+          <h4
+            class="bg-black text-amber-50 rounded-full px-1 text-center"
+            id="tasks-count"
+          >
+            0
+          </h4></span
+        >
+        <span
+          class="flex space-x-2 md:space-x-5 text-sm md:text-lg lg:text-2xl max-sm:text-[0.8rem] text-black mr-3 md:mr-10 font-extrabold"
+          ><h4>Completed</h4>
+          <h4
+            class="bg-black text-amber-50 rounded-full px-1 text-center"
+            id="complete-count"
+          >
+            0
+          </h4></span
+        >
+      </div>
+
+      <!---------------------------------- This is the task area----------------------- -->
+
+      <div
+        class="tasks-container w-[90%] md:w-[60%] drop-shadow-lg bg-white/5 backdrop-blur-md border border-white/20 rounded-2xl p-3 flex flex-col space-y-5 items-center justify-evenly mb-5 max-h-[50vh] md:max-h-[57vh] overflow-y-auto no-scrollbar hidden"
+      ></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

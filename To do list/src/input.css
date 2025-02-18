@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import "tailwindcss";
+ @layer components {
+  .task{
+    @apply w-full bg-[#2F2A24] flex items-center justify-evenly rounded-2xl;
+  }
+  .task-text{
+    @apply w-2/4 md:w-3/4 text-white text-base md:text-2xl break-words whitespace-normal p-3 select-none;
+  } 
+  .icons{
+    @apply w-1/4 flex items-center justify-center md:justify-evenly p-3 space-x-4;
+  }
+  .icon{
+    @apply font-extrabold text-white text-2xl;
+  }
+}
+
+@theme{
+  --font-rubik: "Rubik Distressed", serif;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
