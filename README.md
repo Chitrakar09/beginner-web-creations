@@ -64,7 +64,7 @@ I’m always open to feedback and collaboration. If you have any suggestions or 
 
 ## Contact  
 
-- **GitHub**: [Chitrakar365](https://github.com/Chitrakar365)  
+- **GitHub**: [Chitrakar09](https://github.com/Chitrakar09)  
 - **Email**: [chitrakarpratyush@gmail.com](chitrakarpratyush@gmail.com)
 - **Instagram**: [Chitrakar_09](https://www.instagram.com/chitrakar_09/)  
 - **Facebook**: [Chitrakar09](https://www.facebook.com/chitrakar09)  
