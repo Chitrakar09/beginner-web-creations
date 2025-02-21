@@ -33,19 +33,19 @@ Each project is organized into its own directory for easy navigation. To get sta
 
 Here are some highlights from the repository:  
 
-###1. To-Do List
+### 1. To-Do List
 A minimal yet functional to-do list application built with HTML, CSS, JavaScript, and Tailwind CSS. This project features:
 - Responsive design for seamless use across devices.
 - Dynamic UI updates, allowing users to add and remove tasks instantly without refreshing the page.
 - A clean and intuitive interface for managing daily tasks efficiently.
 
-###2. Amazon_Replica
+### 2. Amazon_Replica
 A static replica of Amazon's landing page, developed using only HTML and CSS. This project demonstrates:
 - Clean and structured layout design following Amazon's UI elements.
 - Proper HTML semantics and CSS styling to achieve a polished look.
 - A foundation for understanding front-end styling techniques without JavaScript.
 
-###3. Rock-Paper-Scissors (Basic Implementation)
+### 3. Rock-Paper-Scissors (Basic Implementation)
 A simple implementation of the classic Rock-Paper-Scissors game using HTML, CSS, and JavaScript. While it lacks an AI opponent and fully interactive UI elements, it showcases:
 - Basic game logic using JavaScript.
 - User interface structure with clickable elements.
