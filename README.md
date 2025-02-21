@@ -4,14 +4,13 @@ This repository showcases all the projects I’ve created, highlighting my skill
 
 ## About  
 
-The **Projects** repository serves as a portfolio of my work, providing a comprehensive look at the various challenges I’ve tackled and the solutions I’ve built over time. From small scripts and prototypes to fully-fledged applications, this repository represents my dedication to continuous learning and improvement.  
+The **Projects** repository serves as a portfolio of my work, providing a comprehensive look at the various challenges I’ve tackled and the solutions I’ve built over time. From small scripts and prototypes to fully-fledged applications(Upcoming in the future), this repository represents my dedication to continuous learning and improvement.  
 
 ## Contents  
 
 The projects in this repository span multiple domains and technologies, including:  
 
 - **Web Development**: Interactive and responsive websites, frontend and backend projects.  
-- **Programming Challenges**: Solutions to algorithmic problems and coding exercises.  
 - **Open Source Contributions**: Contributions to collaborative projects.  
 - **Personal Projects**: Ideas and tools I’ve created to solve real-world problems.  
 
@@ -34,15 +33,29 @@ Each project is organized into its own directory for easy navigation. To get sta
 
 Here are some highlights from the repository:  
 
-1. **Amazon_Replica**: In this project I tried to replicate the homepage of Amazon website using only html and css.  
-2. **Clock**: This project was to practice the fundamentals of HTML, CSS and Javascript and use those knowledge to make a simple analog clock   
+###1. To-Do List
+A minimal yet functional to-do list application built with HTML, CSS, JavaScript, and Tailwind CSS. This project features:
+- Responsive design for seamless use across devices.
+- Dynamic UI updates, allowing users to add and remove tasks instantly without refreshing the page.
+- A clean and intuitive interface for managing daily tasks efficiently.
+
+###2. Amazon_Replica
+A static replica of Amazon's landing page, developed using only HTML and CSS. This project demonstrates:
+- Clean and structured layout design following Amazon's UI elements.
+- Proper HTML semantics and CSS styling to achieve a polished look.
+- A foundation for understanding front-end styling techniques without JavaScript.
+
+###3. Rock-Paper-Scissors (Basic Implementation)
+A simple implementation of the classic Rock-Paper-Scissors game using HTML, CSS, and JavaScript. While it lacks an AI opponent and fully interactive UI elements, it showcases:
+- Basic game logic using JavaScript.
+- User interface structure with clickable elements.
+- A starting point for further enhancements like AI opponents and improved animations.
   
 
 ## Future Plans  
 
-More projects will be uploaded soon, covering topics such as:  
-- Advanced web applications.  
-- Machine learning and AI experiments.  
+I’m actively working on new projects and plan to explore:  
+- Advanced web applications. 
 - Tools and utilities for developers.  
 
 ## Feedback  
@@ -52,6 +65,8 @@ I’m always open to feedback and collaboration. If you have any suggestions or 
 ## Contact  
 
 - **GitHub**: [Chitrakar365](https://github.com/Chitrakar365)  
-- **Email**: [chitrakarpratyush@gmail.com](chitrakarpratyush@gmail.com)  
+- **Email**: [chitrakarpratyush@gmail.com](chitrakarpratyush@gmail.com)
+- **Instagram**: [Chitrakar_09](https://www.instagram.com/chitrakar_09/)  
+- **Facebook**: [Chitrakar09](https://www.facebook.com/chitrakar09)  
 
 ---  
