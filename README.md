@@ -1,18 +1,20 @@
 # Projects Repository  
 
-This repository showcases all the projects I’ve created, highlighting my skills and growth as a developer. It contains a diverse collection of projects that reflect my learning journey, problem-solving skills, and creative thinking.  
+This repository showcases foundational web development projects I’ve created, demonstrating my growth and skills as a developer. It includes a variety of projects that reflect my learning journey, problem-solving ability, and creativity in web development.  
 
 ## About  
 
-The **Projects** repository serves as a portfolio of my work, providing a comprehensive look at the various challenges I’ve tackled and the solutions I’ve built over time. From small scripts and prototypes to fully-fledged applications(Upcoming in the future), this repository represents my dedication to continuous learning and improvement.  
+The **beginner-web-creations** repository serves as a portfolio for the basic web development projects I’ve worked on. It provides a comprehensive look at the essential challenges I’ve tackled and the solutions I’ve built over time. From simple prototypes and interactive websites to frontend and backend experiments, this repository highlights my commitment to learning and improving the fundamentals.  
+
+In parallel, I am working on more complex and advanced projects in a separate repository, where I explore more sophisticated web applications and developer tools.  
 
 ## Contents  
 
-The projects in this repository span multiple domains and technologies, including:  
+The projects in this repository focus on the core fundamentals of web development, specifically:
 
-- **Web Development**: Interactive and responsive websites, frontend and backend projects.  
-- **Open Source Contributions**: Contributions to collaborative projects.  
-- **Personal Projects**: Ideas and tools I’ve created to solve real-world problems.  
+- **Web Development**: Simple, interactive websites built using HTML, CSS, and JavaScript.
+- **Personal Projects**: Basic tools and ideas created to practice and showcase fundamental web development skills.
+- **Learning Projects**: Small experiments and prototypes to explore different concepts and techniques in web development.
 
 ## How to Explore  
 
@@ -52,11 +54,11 @@ A simple implementation of the classic Rock-Paper-Scissors game using HTML, CSS,
 - A starting point for further enhancements like AI opponents and improved animations.
   
 
-## Future Plans  
+## Future Plans
 
-I’m actively working on new projects and plan to explore:  
-- Advanced web applications. 
-- Tools and utilities for developers.  
+This repository focuses on the basics of web development, and I am currently working on more complex and advanced projects in a separate repository. My upcoming work will include:
+- Developing advanced web applications.
+- Creating tools and utilities for developers.
 
 ## Feedback  
 
