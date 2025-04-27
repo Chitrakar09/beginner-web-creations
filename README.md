@@ -20,12 +20,12 @@ Each project is organized into its own directory for easy navigation. To get sta
 
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/Chitrakar365/Projects.git  
+   git clone https://github.com/Chitrakar09/beginner-web-creations.git
    ```  
 
 2. Navigate to the project of interest:  
    ```bash  
-   cd Projects/<Project_Name>  
+   cd Projects/<project of interest>  
    ```  
 
 
